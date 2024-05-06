@@ -40,7 +40,7 @@ import "./Admin.css";
 
 import io from "socket.io-client"; // Import Socket.IO client library
 
-const socket = io("http://localhost:5000"); // Connect to Socket.IO server
+const socket = io("https://calendar-server-fsrz.onrender.com"); // Connect to Socket.IO server
 
 const drawerWidth = 240;
 
